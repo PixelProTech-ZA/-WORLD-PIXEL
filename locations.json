@@ -1,0 +1,429 @@
+{
+  "schema": 1,
+  "dataset": {
+    "name": "World Pixel gazetteer: Gauteng",
+    "notes": "Place centres for Gauteng cities and townships, searched on-device before the live geocoder. Coordinates are area centres. 'featured' places appear as quick-pick chips. Replace 'places' without touching application code."
+  },
+  "country": {
+    "code": "ZA",
+    "name": "South Africa"
+  },
+  "levels": [
+    "country",
+    "province",
+    "district",
+    "municipality",
+    "city",
+    "suburb"
+  ],
+  "provinces": [
+    {
+      "code": "EC",
+      "name": "Eastern Cape"
+    },
+    {
+      "code": "FS",
+      "name": "Free State"
+    },
+    {
+      "code": "GP",
+      "name": "Gauteng"
+    },
+    {
+      "code": "KZN",
+      "name": "KwaZulu-Natal"
+    },
+    {
+      "code": "LP",
+      "name": "Limpopo"
+    },
+    {
+      "code": "MP",
+      "name": "Mpumalanga"
+    },
+    {
+      "code": "NC",
+      "name": "Northern Cape"
+    },
+    {
+      "code": "NW",
+      "name": "North West"
+    },
+    {
+      "code": "WC",
+      "name": "Western Cape"
+    }
+  ],
+  "placeSchema": {
+    "name": "string",
+    "level": "city | suburb | municipality | district",
+    "province": "string",
+    "latitude": "number",
+    "longitude": "number",
+    "featured": "boolean (optional)",
+    "aliases": "string[] (optional)"
+  },
+  "places": [
+    {
+      "name": "Johannesburg",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.2041,
+      "longitude": 28.0473,
+      "featured": true,
+      "aliases": [
+        "Joburg",
+        "Jozi",
+        "Jhb"
+      ]
+    },
+    {
+      "name": "Soweto",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.2678,
+      "longitude": 27.8585,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Sandton",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.1076,
+      "longitude": 28.0567,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Randburg",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.094,
+      "longitude": 28.006,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Roodepoort",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.1625,
+      "longitude": 27.8725,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Alexandra",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.103,
+      "longitude": 28.1,
+      "featured": false,
+      "aliases": [
+        "Alex"
+      ]
+    },
+    {
+      "name": "Midrand",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -25.989,
+      "longitude": 28.128,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Centurion",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -25.8603,
+      "longitude": 28.1894,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Pretoria",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -25.7479,
+      "longitude": 28.188,
+      "featured": true,
+      "aliases": [
+        "Tshwane"
+      ]
+    },
+    {
+      "name": "Atteridgeville",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.77,
+      "longitude": 28.065,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Mamelodi",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.707,
+      "longitude": 28.365,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Soshanguve",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.52,
+      "longitude": 28.1,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Ga-Rankuwa",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.62,
+      "longitude": 28.0,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Hammanskraal",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.4,
+      "longitude": 28.28,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Temba",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.38,
+      "longitude": 28.27,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Benoni",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.1885,
+      "longitude": 28.3208,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Boksburg",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.2125,
+      "longitude": 28.2626,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Germiston",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.2178,
+      "longitude": 28.167,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Kempton Park",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.1,
+      "longitude": 28.23,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Tembisa",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.9964,
+      "longitude": 28.2268,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Edenvale",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.141,
+      "longitude": 28.152,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Bedfordview",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.177,
+      "longitude": 28.135,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Springs",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.25,
+      "longitude": 28.4,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Brakpan",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.236,
+      "longitude": 28.369,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Alberton",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.267,
+      "longitude": 28.122,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Katlehong",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.335,
+      "longitude": 28.15,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Thokoza",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.36,
+      "longitude": 28.15,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Vosloorus",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.35,
+      "longitude": 28.2,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Daveyton",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.15,
+      "longitude": 28.41,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Vereeniging",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.6731,
+      "longitude": 27.9261,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Vanderbijlpark",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.711,
+      "longitude": 27.838,
+      "featured": true,
+      "aliases": [
+        "Vaal"
+      ]
+    },
+    {
+      "name": "Sebokeng",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.59,
+      "longitude": 27.84,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Heidelberg",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.503,
+      "longitude": 28.357,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Krugersdorp",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.1,
+      "longitude": 27.77,
+      "featured": true,
+      "aliases": []
+    },
+    {
+      "name": "Randfontein",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.185,
+      "longitude": 27.7,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Westonaria",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.319,
+      "longitude": 27.649,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Carletonville",
+      "level": "city",
+      "province": "Gauteng",
+      "latitude": -26.36,
+      "longitude": 27.398,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Lenasia",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -26.32,
+      "longitude": 27.83,
+      "featured": false,
+      "aliases": []
+    },
+    {
+      "name": "Diepsloot",
+      "level": "suburb",
+      "province": "Gauteng",
+      "latitude": -25.93,
+      "longitude": 28.01,
+      "featured": false,
+      "aliases": []
+    }
+  ]
+}
